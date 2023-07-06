@@ -10,7 +10,7 @@
 			<h1
 				class="max-w-2xl mb-4 text-4xl tracking-tight text-primary-900 md:text-5xl xl:text-6xl"
 			>
-				Gérez votre pourvoirie en toute simplicité et efficacité.
+				Gérez votre pourvoirie en toute simplicité.
 			</h1>
 			<ul
 				class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 space-y-2"
