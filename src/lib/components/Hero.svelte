@@ -8,7 +8,7 @@
 	<div class="grid lg:max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-6 p-2">
 			<h1
-				class="max-w-2xl mb-4 text-4xl font-bold tracking-tight text-primary-900 md:text-5xl xl:text-6xl"
+				class="max-w-2xl mb-4 text-4xl tracking-tight text-primary-900 md:text-5xl xl:text-6xl"
 			>
 				Gérez votre pourvoirie en toute simplicité et efficacité.
 			</h1>

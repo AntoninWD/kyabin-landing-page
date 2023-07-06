@@ -1,0 +1,5 @@
+// Fix/find good fonts
+// Add interest form
+// Get email domain
+// get domain.ca
+// Find better logo?

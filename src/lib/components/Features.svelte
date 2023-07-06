@@ -35,7 +35,7 @@
 		},
 		{
 			icon: Plus,
-			title: 'Bien plus encore',
+			title: "Quoi d'autre?",
 			description:
 				"Nous fesons constamment évoluer notre plateforme pour répondre aux besoins de nos clients. Nous sommes à votre écoute et nous nous assurons que notre plateforme répondre à vos besoins."
 		}
