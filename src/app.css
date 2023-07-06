@@ -4,7 +4,7 @@
 
 html,
 body {
-	@apply h-full overflow-hidden bg-[#efefe5];
+	@apply h-full bg-[#efefe5] text-slate-900
 }
 
 input,

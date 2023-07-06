@@ -3,7 +3,7 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		fontFamily: {
-			sans: ['Inter', 'sans-serif']
+			sans: ['Roboto', 'sans-serif']
 		},
 		extend: {
 			colors: {
