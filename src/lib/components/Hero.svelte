@@ -13,7 +13,7 @@
 				Gérez votre pourvoirie en toute simplicité.
 			</h1>
 			<ul
-				class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 space-y-2"
+				class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl space-y-2"
 			>
 				<li>
 					Optimisez la gestion de votre entreprise de plein air grâce à notre logiciel de pointe.

@@ -37,7 +37,7 @@
 			icon: Plus,
 			title: "Quoi d'autre?",
 			description:
-				"Nous fesons constamment évoluer notre plateforme pour répondre aux besoins de nos clients. Nous sommes à votre écoute et nous nous assurons que notre plateforme répondre à vos besoins."
+				"Nous fesons constamment évoluer notre plateforme pour répondre aux besoins de nos clients. Nous sommes à votre écoute et nous nous assurons que notre plateforme répondra à vos besoins."
 		}
 	];
 </script>
@@ -51,7 +51,7 @@
 			{#each features as feature}
 				<div>
 					<div
-						class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-200/30 shadow-md lg:h-12 lg:w-12 dark:bg-primary-900"
+						class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-200/30 shadow-md lg:h-12 lg:w-12"
 					>
 						<Icon icon={feature.icon} />
 					</div>
