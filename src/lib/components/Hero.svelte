@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Icon from './Icon.svelte';
 	import IconCard from './IconCard.svelte';
-	import { Campfire, Mountains, FishSimple, PawPrint, ArrowDown } from 'phosphor-svelte';
+	import { Tent, Mountains, FishSimple, PawPrint, ArrowDown } from 'phosphor-svelte';
 </script>
 
 <section class="lg:p-12 z-10">
@@ -37,19 +37,19 @@
 		</div>
 		<div class="hidden lg:mt-0 lg:col-span-6 lg:flex relative">
 			<div class="w-64 h-96 rounded-lg overflow-hidden absolute top-0 right-1/2 shadow-md">
-				<img src="/images/fishing.jpg" alt="fishing" class="object-cover w-full h-full" />
+				<img src="/images/fishing2.jpg" alt="fishing" class="object-cover w-full h-full" />
 			</div>
 			<div class="w-64 h-96 rounded-lg overflow-hidden absolute right-8 -bottom-32 shadow-md">
-				<img src="/images/cabin.jpg" alt="cabin" class="object-cover w-full h-full" />
+				<img src="/images/mountain.jpg" alt="cabin" class="object-cover w-full h-full" />
 			</div>
 			<div class="z-10 absolute top-[360px] left-8">
-				<IconCard icon={Campfire} color="orange" />
+				<IconCard icon={FishSimple} color="blue" />
 			</div>
-			<div class="z-10 absolute right-16 bottom-1/2">
+			<div class="z-10 absolute right-12 bottom-1/3">
 				<IconCard icon={Mountains} color="green" />
 			</div>
-			<div class="z-10 absolute -top-6 right-[400px]">
-				<IconCard icon={FishSimple} color="blue" />
+			<div class="z-10 absolute top-1/3 right-[290px]">
+				<IconCard icon={Tent} color="orange" />
 			</div>
 			<div class="z-10 absolute -bottom-36 right-1/4">
 				<IconCard icon={PawPrint} color="red" />
