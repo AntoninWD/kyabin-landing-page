@@ -18,7 +18,7 @@
 		</div>
 
 		<span class="text-sm text-gray-300 sm:text-center"
-			>© {currYear} <a href="#" class="hover:underline">Kyabin™</a>. Tous droits réservés.</span
+			>© {currYear} Kyabin™. Tous droits réservés.</span
 		>
 	</div>
 </footer>

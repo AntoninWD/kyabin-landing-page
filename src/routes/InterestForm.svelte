@@ -35,7 +35,7 @@
 			Inscrivez-vous sur notre liste d'attente!
 		</h1>
 		<p class="py-10 text-gray-500 dark:text-gray-600 text-center">
-			Inscrivez-vous dès maintenant sur notre liste d'attente pour être informé en exclusivité de
+			Inscrivez-vous dès maintenant pour être informé en exclusivité de
 			l'avancement de notre projet et être parmi les premiers à accéder à notre application tant
 			attendue.
 		</p>
