@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+model launch_interest {
+  id Int @id @default(autoincrement())
+  lodge_name String
+  email String
+  created_at DateTime @default(now())
+}
