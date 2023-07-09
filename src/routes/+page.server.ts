@@ -29,18 +29,32 @@ export const actions = {
 			}
 		});
 
-        if(!result) {
-			throw error(500, 'Une erreur est survenue lors de l\'enregistrement de votre demande. Veuillez réessayer plus tard.');
-        }
+		if (!result) {
+			throw error(
+				500,
+				"Une erreur est survenue lors de l'enregistrement de votre demande. Veuillez réessayer plus tard."
+			);
+		}
 
 		await sendEmail({
-			from: 'killuoxfn@gmail.com',
+			from: 'antonin@kyabin.com',
 			to: form.data.email,
 			subject: 'Merci pour votre intérêt envers la Kyabin',
 			templateId: 'd-65c919c660164580a501c470cb23acc5',
 			dynamicTemplateData: {
 				name: form.data.lodge_name
-			},
+			}
+		});
+
+		await sendEmail({
+			from: 'antonin@kyabin.com',
+			to: 'antonin@kyabin.com',
+			subject: "Nouvelle demande d'intérêt",
+			templateId: 'd-ad5445ffbc1545cc9e2c10a26196d0dc',
+			dynamicTemplateData: {
+				name: form.data.lodge_name,
+				email: form.data.email
+			}
 		});
 
 		return { form };
