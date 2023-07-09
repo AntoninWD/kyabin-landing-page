@@ -47,7 +47,7 @@
 				<img src="/images/fishing2.jpg" alt="fishing" class="object-cover w-full h-full" />
 			</div>
 			<div class="w-64 h-96 rounded-lg overflow-hidden absolute right-8 -bottom-32 shadow-md">
-				<img src="/images/cabin.jpg" alt="cabin" class="object-cover w-full h-full" />
+				<img src="/images/cabin3.jpg" alt="cabin" class="object-cover w-full h-full" />
 			</div>
 			<div class="z-10 absolute top-[360px] left-8">
 				<IconCard icon={FishSimple} color="blue" />
