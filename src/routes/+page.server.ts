@@ -1,6 +1,6 @@
 import { superValidate } from 'sveltekit-superforms/server';
 import { interestSchema } from '$lib/schema';
-import { fail } from '@sveltejs/kit';
+import { fail, error } from '@sveltejs/kit';
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
@@ -29,7 +29,7 @@ export const actions = {
 		});
 
         if(!result) {
-            throw new Error('Une erreur est survenue lors de l\'enregistrement de votre demande. Veuillez réessayer plus tard.');
+			throw error(500, 'Une erreur est survenue lors de l\'enregistrement de votre demande. Veuillez réessayer plus tard.');
         }
 
 		return { form };
