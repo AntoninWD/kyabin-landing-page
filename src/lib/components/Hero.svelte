@@ -5,7 +5,6 @@
 
 	function scrollIntoView({ target }: any) {
 		const el = document.querySelector(target.getAttribute('href'));
-		console.log(target);
 		if (!el) return;
 		el.scrollIntoView({
 			behavior: 'smooth'
@@ -21,10 +20,10 @@
 			</h1>
 			<ul class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl space-y-2">
 				<li>
-					Optimisez la gestion de votre entreprise de plein air grâce à notre logiciel de pointe.
+					Optimisez la gestion de votre entreprise grâce à notre logiciel de pointe.
 				</li>
 				<li>
-					Contrôlez efficacement vos réservations, vos inventaires, votre expérience client et bien
+					Contrôlez efficacement vos réservations, vos inventaires, votre clientèle et bien
 					plus encore!
 				</li>
 				<li>
@@ -48,7 +47,7 @@
 				<img src="/images/fishing2.jpg" alt="fishing" class="object-cover w-full h-full" />
 			</div>
 			<div class="w-64 h-96 rounded-lg overflow-hidden absolute right-8 -bottom-32 shadow-md">
-				<img src="/images/mountain.jpg" alt="cabin" class="object-cover w-full h-full" />
+				<img src="/images/cabin.jpg" alt="cabin" class="object-cover w-full h-full" />
 			</div>
 			<div class="z-10 absolute top-[360px] left-8">
 				<IconCard icon={FishSimple} color="blue" />

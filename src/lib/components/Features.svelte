@@ -1,10 +1,10 @@
 <script lang="ts">
 	import Icon from './Icon.svelte';
-	import { BookOpenText, BagSimple, ChartBar, FishSimple, Users, Plus } from 'phosphor-svelte';
+	import { BagSimple, ChartBar, FishSimple, Users, Plus, House } from 'phosphor-svelte';
 
 	const features = [
 		{
-			icon: BookOpenText,
+			icon: House,
 			title: 'Réservations simplifiées',
 			description:
 				'Gérez facilement les réservations de vos clients grâce à une interface conviviale. Suivez les disponibilités, confirmez les réservations, envoyez des rappels et gérez les annulations en quelques clics.'
@@ -31,13 +31,13 @@
 			icon: Users,
 			title: 'Gestion des clients',
 			description:
-				"Gérez facilement les informations de vos clients. Enregistrez les détails de contact, les préférences et les autres informations pertinentes pour chaque client. Utilisez ces données pour personnaliser les offres, améliorer l'expérience client et fidéliser vos clients."
+				"Gérez facilement les informations de vos clients en enregistrant leurs coordonnées, préférences et autres détails pertinents. Personnalisez et améliorez continuellement l'expérience de vos clients pour favoriser leur fidélisation à long terme."
 		},
 		{
 			icon: Plus,
-			title: "Quoi d'autre?",
+			title: "En constante adaptation",
 			description:
-				"Nous fesons constamment évoluer notre plateforme pour répondre aux besoins de nos clients. Nous sommes à votre écoute et nous nous assurons que notre plateforme répondra à vos besoins."
+				'Nous fesons constamment évoluer notre plateforme pour répondre aux besoins de nos clients. Nous sommes à votre écoute et nous nous assurons que notre plateforme répondra à vos besoins.'
 		}
 	];
 </script>
