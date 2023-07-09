@@ -14,7 +14,7 @@
 
 		<div class="flex items-center justify-center my-6 space-x-2">
 			<span class="text-gray-300">Contactez-nous:</span>
-			<a href="mailto:info@kyabin.ca" class="text-gray-400 hover:underline"> info@kyabin.ca </a>
+			<a href="mailto:antonin@kyabin.ca" class="text-gray-400 hover:underline"> antonin@kyabin.ca </a>
 		</div>
 
 		<span class="text-sm text-gray-300 sm:text-center"

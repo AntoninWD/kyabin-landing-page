@@ -63,5 +63,13 @@
 				<IconCard icon={PawPrint} color="red" />
 			</div>
 		</div>
+
+		<div class="lg:hidden py-12">
+			<img
+				src="/images/boat.jpg"
+				alt="cabin"
+				class="object-cover w-full h-full rounded-md shadow-md"
+			/>
+		</div>
 	</div>
 </section>

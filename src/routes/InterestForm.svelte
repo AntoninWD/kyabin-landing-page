@@ -30,8 +30,7 @@
 	class="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-24"
 >
 	<div class="w-full bg-white rounded-lg shadow p-12 md:mt-0 sm:max-w-xl">
-		<img class="w-24 h-24 mx-auto mb-8" src="/images/kyabin-logo.png" alt="Logo" />
-		<h1 class="text-xl font-bold text-primary-700 md:text-2xl text-center">
+		<h1 class="text-2xl font-bold text-primary-700 md:text-4xl text-center">
 			Inscrivez-vous sur notre liste d'attente!
 		</h1>
 		<p class="py-10 text-gray-500 dark:text-gray-600 text-center">
