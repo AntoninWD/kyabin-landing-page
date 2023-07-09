@@ -19,12 +19,10 @@
 				Gérez votre pourvoirie en toute simplicité.
 			</h1>
 			<ul class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl space-y-2">
+				<li>Optimisez la gestion de votre entreprise grâce à notre logiciel de pointe.</li>
 				<li>
-					Optimisez la gestion de votre entreprise grâce à notre logiciel de pointe.
-				</li>
-				<li>
-					Contrôlez efficacement vos réservations, vos inventaires, votre clientèle et bien
-					plus encore!
+					Maîtrisez efficacement vos réservations, inventaires, clientèles, captures, et bien plus
+					encore !
 				</li>
 				<li>
 					Lancez-vous dans cette aventure et pêchez le succès à chaque étape de votre expérience.
