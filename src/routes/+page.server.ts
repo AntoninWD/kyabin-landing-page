@@ -2,6 +2,7 @@ import { superValidate } from 'sveltekit-superforms/server';
 import { interestSchema } from '$lib/schema';
 import { fail, error } from '@sveltejs/kit';
 import { PrismaClient } from '@prisma/client';
+import { sendEmail } from '$lib/server/mail.js';
 
 const prisma = new PrismaClient();
 
@@ -31,6 +32,16 @@ export const actions = {
         if(!result) {
 			throw error(500, 'Une erreur est survenue lors de l\'enregistrement de votre demande. Veuillez réessayer plus tard.');
         }
+
+		await sendEmail({
+			from: 'killuoxfn@gmail.com',
+			to: form.data.email,
+			subject: 'Merci pour votre intérêt envers la Kyabin',
+			templateId: 'd-65c919c660164580a501c470cb23acc5',
+			dynamicTemplateData: {
+				name: form.data.lodge_name
+			},
+		});
 
 		return { form };
 	}
