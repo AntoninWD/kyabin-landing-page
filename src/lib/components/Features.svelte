@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Icon from './Icon.svelte';
-	import { BagSimple, ChartBar, FishSimple, Users, Plus, House } from 'phosphor-svelte';
+	import { BagSimple, Cloud, FishSimple, Users, Plus, House } from 'phosphor-svelte';
 
 	const features = [
 		{
@@ -16,10 +16,10 @@
 				"Gardez une trace précise de votre inventaire d'équipement. Suivez les niveaux de stock, recevez des alertes pour les réapprovisionnements et optimisez votre gestion des ressources."
 		},
 		{
-			icon: ChartBar,
-			title: 'Analyse et rapports',
+			icon: Cloud,
+			title: 'Facilité d’accès',
 			description:
-				'Obtenez des informations précieuses sur les performances de votre pourvoirie. Analysez les statistiques clés, les tendances de réservation, les taux de satisfaction client, et générez des rapports détaillés pour prendre des décisions éclairées et optimiser vos opérations.'
+				"Notre application est accessible sur tous les appareils. Que ce soit sur votre ordinateur, votre tablette ou votre téléphone.  Profitez de performances optimales, de fonctionnalités modernes et d'une flexibilité totale, sans les tracas d'une installation traditionnelle."
 		},
 		{
 			icon: FishSimple,
