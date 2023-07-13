@@ -54,8 +54,8 @@
 								src={fishing}
 								alt="fishing"
 								style="object-cover w-full h-full"
-								width={275}
-								height={350}
+								width={312}
+								height={390}
 							/>
 						</div>
 						<div class="absolute -bottom-4 left-4">
@@ -75,8 +75,8 @@
 								src={cabin}
 								alt="cabin"
 								style="object-cover w-full h-full"
-								width={275}
-								height={350}
+								width={312}
+								height={390}
 							/>
 						</div>
 						<div class="absolute top-12 left-12">
