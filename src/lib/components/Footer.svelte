@@ -1,11 +1,13 @@
 <script>
+	import Image from './Image.svelte';
+	import brandImage from "$lib/images/kyabin-trans-light.png"
 	const currYear = new Date().getFullYear();
 </script>
 
 <footer class="p-4 bg-primary-900 md:p-8 lg:p-10">
 	<div class="mx-auto max-w-screen-xl text-center flex items-center flex-col">
 		<a href="/" class="flex items-center justify-center w-48">
-			<img src="/images/kyabin-trans-light.png" alt="Kyabin" class="mr-2 h-full w-full" />
+			<Image src={brandImage} alt="Kyabin" style="mr-2 h-full w-full" />
 		</a>
 		<p class="mt-6 text-gray-300">
 			Le logiciel de gestion de pourvoirie le plus complet et le plus simple à utiliser.
