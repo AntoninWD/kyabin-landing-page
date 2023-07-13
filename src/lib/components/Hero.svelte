@@ -14,7 +14,7 @@
 
 <section class="lg:p-12 z-10">
 	<div class="grid lg:max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-		<div class="mr-auto place-self-center lg:col-span-6 p-2">
+		<div class="mx-auto text-center lg:mr-auto lg:text-start place-self-center lg:col-span-6 p-2">
 			<h1 class="max-w-2xl mb-4 text-4xl tracking-tight text-primary-900 md:text-5xl xl:text-6xl">
 				Gérez votre pourvoirie en toute simplicité.
 			</h1>
@@ -31,7 +31,7 @@
 
 			<a
 				href="#interest-form"
-				class="flex w-fit text-white text-sm md:text-xl bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg px-5 py-2.5 focus:outline-none items-center space-x-2"
+				class="mx-auto lg:mx-0 flex w-fit text-white text-sm md:text-xl bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg px-5 py-2.5 focus:outline-none items-center space-x-2"
 				on:click|preventDefault={scrollIntoView}
 			>
 				<div class="pointer-events-none flex items-center space-x-4">
@@ -39,34 +39,36 @@
 					<Icon icon={ArrowDown} />
 				</div>
 			</a>
-		</div>
-		<div class="hidden lg:mt-0 lg:col-span-6 lg:flex relative">
-			<div class="w-64 h-96 rounded-lg overflow-hidden absolute top-0 right-1/2 shadow-md">
-				<img src="/images/fishing2.jpg" alt="fishing" class="object-cover w-full h-full" />
+		</div>			
+		
+		<div class="relative h-[950px] lg:h-[550px] mt-12 px-24 space-x-8 lg:col-span-6">
+			<div class="absolute right-1/2 w-full max-w-[350px] transform translate-x-1/2 lg:w-1/2 lg:transform-none lg:left-0">
+				<div class="relative">
+					<div class="shadow-lg rounded-lg overflow-hidden">
+						<img src="/images/fishing2.jpg" alt="fishing" class="object-cover w-full h-full" />
+					</div>
+					<div class="absolute -bottom-4 left-4">
+						<IconCard icon={FishSimple} color="blue" />
+					</div>
+					<div class="absolute top-48 right-4 lg:top-32">
+						<IconCard icon={Tent} color="orange" />
+					</div>
+				</div>
 			</div>
-			<div class="w-64 h-96 rounded-lg overflow-hidden absolute right-8 -bottom-32 shadow-md">
-				<img src="/images/cabin3.jpg" alt="cabin" class="object-cover w-full h-full" />
-			</div>
-			<div class="z-10 absolute top-[360px] left-8">
-				<IconCard icon={FishSimple} color="blue" />
-			</div>
-			<div class="z-10 absolute right-12 bottom-1/3">
-				<IconCard icon={Mountains} color="green" />
-			</div>
-			<div class="z-10 absolute top-1/3 right-[290px]">
-				<IconCard icon={Tent} color="orange" />
-			</div>
-			<div class="z-10 absolute -bottom-36 right-1/4">
-				<IconCard icon={PawPrint} color="red" />
-			</div>
-		</div>
+			<div class="absolute right-1/2 top-[500px] w-full max-w-[350px] transform translate-x-1/2 lg:w-1/2 lg:transform-none lg:right-2 lg:top-[300px]">
+				<div class="relative">
+					<div class="shadow-lg rounded-lg overflow-hidden">
+						<img src="/images/cabin3.jpg" alt="fishing" class="object-cover w-full h-full" />
+					</div>
+					<div class="absolute top-12 left-12">
+						<IconCard icon={Mountains} color="green" />
+					</div>
 
-		<div class="lg:hidden py-12">
-			<img
-				src="/images/boat.jpg"
-				alt="cabin"
-				class="object-cover w-full h-full rounded-md shadow-md"
-			/>
+					<div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
+						<IconCard icon={PawPrint} color="red" />
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
