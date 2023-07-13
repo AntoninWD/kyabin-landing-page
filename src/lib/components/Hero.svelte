@@ -42,7 +42,7 @@
 		</div>			
 		
 		<div class="relative h-[950px] lg:h-[550px] mt-12 px-24 space-x-8 lg:col-span-6">
-			<div class="absolute right-1/2 w-full max-w-[350px] transform translate-x-1/2 lg:w-1/2 lg:transform-none lg:left-0">
+			<div class="absolute right-1/2 w-full max-w-[350px] transform translate-x-1/2 lg:w-1/2 lg:transform-none lg:left-4">
 				<div class="relative">
 					<div class="shadow-lg rounded-lg overflow-hidden">
 						<img src="/images/fishing2.jpg" alt="fishing" class="object-cover w-full h-full" />
@@ -55,7 +55,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="absolute right-1/2 top-[500px] w-full max-w-[350px] transform translate-x-1/2 lg:w-1/2 lg:transform-none lg:right-2 lg:top-[300px]">
+			<div class="absolute right-1/2 top-[500px] w-full max-w-[350px] transform translate-x-1/2 lg:w-1/2 lg:transform-none lg:right-4 lg:top-[300px]">
 				<div class="relative">
 					<div class="shadow-lg rounded-lg overflow-hidden">
 						<img src="/images/cabin3.jpg" alt="fishing" class="object-cover w-full h-full" />
