@@ -16,7 +16,7 @@
 
 <section class="lg:p-12 z-10 min-h-screen">
 		<div
-			class="grid lg:max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
+			class="grid lg:max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:pb-16 lg:grid-cols-12"
 		>
 			<div class="mx-auto text-center lg:mr-auto lg:text-start place-self-center lg:col-span-6 p-2">
 				<h1 class="max-w-2xl mb-4 text-4xl tracking-tight text-primary-900 md:text-5xl xl:text-6xl">
