@@ -43,7 +43,7 @@
 </script>
 
 <section class="bg-primary-700 text-white">
-	<div class="py-12 px-4 mx-auto max-w-screen-xl sm:py-24 lg:px-6">
+	<div class="py-12 px-4 mx-auto max-w-screen-2xl sm:py-24 lg:px-6">
 		<div class="max-w-screen-md mb-8 lg:mb-16">
 			<h2 class="mb-4 text-4xl text-white">Ce que nous offrons</h2>
 		</div>
