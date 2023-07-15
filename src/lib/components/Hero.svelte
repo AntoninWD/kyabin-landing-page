@@ -25,7 +25,7 @@
 				<ul class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl space-y-2">
 					<li>Optimisez la gestion de votre entreprise grâce à notre logiciel de pointe.</li>
 					<li>
-						Maîtrisez efficacement vos réservations, inventaires, clientèles, captures, et bien plus
+						Gestion complète de vos réservations, inventaires, clientèles, captures, et bien plus
 						encore !
 					</li>
 					<li>
